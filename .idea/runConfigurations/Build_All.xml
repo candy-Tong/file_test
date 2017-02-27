@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" singleton="true" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="file_test" TARGET_NAME="file_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="file_test" RUN_TARGET_NAME="file_test">
+    <envs />
+    <method />
+  </configuration>
+</component>
