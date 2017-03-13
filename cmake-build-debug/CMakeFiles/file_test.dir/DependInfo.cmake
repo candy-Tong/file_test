@@ -4,7 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/C/file_test/AdminInterface.c" "D:/C/file_test/cmake-build-debug/CMakeFiles/file_test.dir/AdminInterface.c.obj"
+  "D:/C/file_test/College.c" "D:/C/file_test/cmake-build-debug/CMakeFiles/file_test.dir/College.c.obj"
+  "D:/C/file_test/CollegeInterface.c" "D:/C/file_test/cmake-build-debug/CMakeFiles/file_test.dir/CollegeInterface.c.obj"
+  "D:/C/file_test/Common.c" "D:/C/file_test/cmake-build-debug/CMakeFiles/file_test.dir/Common.c.obj"
+  "D:/C/file_test/JoinMsg.c" "D:/C/file_test/cmake-build-debug/CMakeFiles/file_test.dir/JoinMsg.c.obj"
+  "D:/C/file_test/KM.c" "D:/C/file_test/cmake-build-debug/CMakeFiles/file_test.dir/KM.c.obj"
+  "D:/C/file_test/Match.c" "D:/C/file_test/cmake-build-debug/CMakeFiles/file_test.dir/Match.c.obj"
+  "D:/C/file_test/User.c" "D:/C/file_test/cmake-build-debug/CMakeFiles/file_test.dir/User.c.obj"
+  "D:/C/file_test/UserInterface.c" "D:/C/file_test/cmake-build-debug/CMakeFiles/file_test.dir/UserInterface.c.obj"
   "D:/C/file_test/main.c" "D:/C/file_test/cmake-build-debug/CMakeFiles/file_test.dir/main.c.obj"
+  "D:/C/file_test/test.c" "D:/C/file_test/cmake-build-debug/CMakeFiles/file_test.dir/test.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -80,19 +80,279 @@ CMakeFiles/file_test.dir/main.c.obj.provides: CMakeFiles/file_test.dir/main.c.ob
 CMakeFiles/file_test.dir/main.c.obj.provides.build: CMakeFiles/file_test.dir/main.c.obj
 
 
+CMakeFiles/file_test.dir/JoinMsg.c.obj: CMakeFiles/file_test.dir/flags.make
+CMakeFiles/file_test.dir/JoinMsg.c.obj: ../JoinMsg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/file_test.dir/JoinMsg.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file_test.dir\JoinMsg.c.obj   -c D:\C\file_test\JoinMsg.c
+
+CMakeFiles/file_test.dir/JoinMsg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_test.dir/JoinMsg.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C\file_test\JoinMsg.c > CMakeFiles\file_test.dir\JoinMsg.c.i
+
+CMakeFiles/file_test.dir/JoinMsg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_test.dir/JoinMsg.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C\file_test\JoinMsg.c -o CMakeFiles\file_test.dir\JoinMsg.c.s
+
+CMakeFiles/file_test.dir/JoinMsg.c.obj.requires:
+
+.PHONY : CMakeFiles/file_test.dir/JoinMsg.c.obj.requires
+
+CMakeFiles/file_test.dir/JoinMsg.c.obj.provides: CMakeFiles/file_test.dir/JoinMsg.c.obj.requires
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/JoinMsg.c.obj.provides.build
+.PHONY : CMakeFiles/file_test.dir/JoinMsg.c.obj.provides
+
+CMakeFiles/file_test.dir/JoinMsg.c.obj.provides.build: CMakeFiles/file_test.dir/JoinMsg.c.obj
+
+
+CMakeFiles/file_test.dir/CollegeInterface.c.obj: CMakeFiles/file_test.dir/flags.make
+CMakeFiles/file_test.dir/CollegeInterface.c.obj: ../CollegeInterface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/file_test.dir/CollegeInterface.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file_test.dir\CollegeInterface.c.obj   -c D:\C\file_test\CollegeInterface.c
+
+CMakeFiles/file_test.dir/CollegeInterface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_test.dir/CollegeInterface.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C\file_test\CollegeInterface.c > CMakeFiles\file_test.dir\CollegeInterface.c.i
+
+CMakeFiles/file_test.dir/CollegeInterface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_test.dir/CollegeInterface.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C\file_test\CollegeInterface.c -o CMakeFiles\file_test.dir\CollegeInterface.c.s
+
+CMakeFiles/file_test.dir/CollegeInterface.c.obj.requires:
+
+.PHONY : CMakeFiles/file_test.dir/CollegeInterface.c.obj.requires
+
+CMakeFiles/file_test.dir/CollegeInterface.c.obj.provides: CMakeFiles/file_test.dir/CollegeInterface.c.obj.requires
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/CollegeInterface.c.obj.provides.build
+.PHONY : CMakeFiles/file_test.dir/CollegeInterface.c.obj.provides
+
+CMakeFiles/file_test.dir/CollegeInterface.c.obj.provides.build: CMakeFiles/file_test.dir/CollegeInterface.c.obj
+
+
+CMakeFiles/file_test.dir/UserInterface.c.obj: CMakeFiles/file_test.dir/flags.make
+CMakeFiles/file_test.dir/UserInterface.c.obj: ../UserInterface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/file_test.dir/UserInterface.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file_test.dir\UserInterface.c.obj   -c D:\C\file_test\UserInterface.c
+
+CMakeFiles/file_test.dir/UserInterface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_test.dir/UserInterface.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C\file_test\UserInterface.c > CMakeFiles\file_test.dir\UserInterface.c.i
+
+CMakeFiles/file_test.dir/UserInterface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_test.dir/UserInterface.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C\file_test\UserInterface.c -o CMakeFiles\file_test.dir\UserInterface.c.s
+
+CMakeFiles/file_test.dir/UserInterface.c.obj.requires:
+
+.PHONY : CMakeFiles/file_test.dir/UserInterface.c.obj.requires
+
+CMakeFiles/file_test.dir/UserInterface.c.obj.provides: CMakeFiles/file_test.dir/UserInterface.c.obj.requires
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/UserInterface.c.obj.provides.build
+.PHONY : CMakeFiles/file_test.dir/UserInterface.c.obj.provides
+
+CMakeFiles/file_test.dir/UserInterface.c.obj.provides.build: CMakeFiles/file_test.dir/UserInterface.c.obj
+
+
+CMakeFiles/file_test.dir/Common.c.obj: CMakeFiles/file_test.dir/flags.make
+CMakeFiles/file_test.dir/Common.c.obj: ../Common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/file_test.dir/Common.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file_test.dir\Common.c.obj   -c D:\C\file_test\Common.c
+
+CMakeFiles/file_test.dir/Common.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_test.dir/Common.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C\file_test\Common.c > CMakeFiles\file_test.dir\Common.c.i
+
+CMakeFiles/file_test.dir/Common.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_test.dir/Common.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C\file_test\Common.c -o CMakeFiles\file_test.dir\Common.c.s
+
+CMakeFiles/file_test.dir/Common.c.obj.requires:
+
+.PHONY : CMakeFiles/file_test.dir/Common.c.obj.requires
+
+CMakeFiles/file_test.dir/Common.c.obj.provides: CMakeFiles/file_test.dir/Common.c.obj.requires
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/Common.c.obj.provides.build
+.PHONY : CMakeFiles/file_test.dir/Common.c.obj.provides
+
+CMakeFiles/file_test.dir/Common.c.obj.provides.build: CMakeFiles/file_test.dir/Common.c.obj
+
+
+CMakeFiles/file_test.dir/User.c.obj: CMakeFiles/file_test.dir/flags.make
+CMakeFiles/file_test.dir/User.c.obj: ../User.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/file_test.dir/User.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file_test.dir\User.c.obj   -c D:\C\file_test\User.c
+
+CMakeFiles/file_test.dir/User.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_test.dir/User.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C\file_test\User.c > CMakeFiles\file_test.dir\User.c.i
+
+CMakeFiles/file_test.dir/User.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_test.dir/User.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C\file_test\User.c -o CMakeFiles\file_test.dir\User.c.s
+
+CMakeFiles/file_test.dir/User.c.obj.requires:
+
+.PHONY : CMakeFiles/file_test.dir/User.c.obj.requires
+
+CMakeFiles/file_test.dir/User.c.obj.provides: CMakeFiles/file_test.dir/User.c.obj.requires
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/User.c.obj.provides.build
+.PHONY : CMakeFiles/file_test.dir/User.c.obj.provides
+
+CMakeFiles/file_test.dir/User.c.obj.provides.build: CMakeFiles/file_test.dir/User.c.obj
+
+
+CMakeFiles/file_test.dir/College.c.obj: CMakeFiles/file_test.dir/flags.make
+CMakeFiles/file_test.dir/College.c.obj: ../College.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/file_test.dir/College.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file_test.dir\College.c.obj   -c D:\C\file_test\College.c
+
+CMakeFiles/file_test.dir/College.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_test.dir/College.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C\file_test\College.c > CMakeFiles\file_test.dir\College.c.i
+
+CMakeFiles/file_test.dir/College.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_test.dir/College.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C\file_test\College.c -o CMakeFiles\file_test.dir\College.c.s
+
+CMakeFiles/file_test.dir/College.c.obj.requires:
+
+.PHONY : CMakeFiles/file_test.dir/College.c.obj.requires
+
+CMakeFiles/file_test.dir/College.c.obj.provides: CMakeFiles/file_test.dir/College.c.obj.requires
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/College.c.obj.provides.build
+.PHONY : CMakeFiles/file_test.dir/College.c.obj.provides
+
+CMakeFiles/file_test.dir/College.c.obj.provides.build: CMakeFiles/file_test.dir/College.c.obj
+
+
+CMakeFiles/file_test.dir/Match.c.obj: CMakeFiles/file_test.dir/flags.make
+CMakeFiles/file_test.dir/Match.c.obj: ../Match.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/file_test.dir/Match.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file_test.dir\Match.c.obj   -c D:\C\file_test\Match.c
+
+CMakeFiles/file_test.dir/Match.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_test.dir/Match.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C\file_test\Match.c > CMakeFiles\file_test.dir\Match.c.i
+
+CMakeFiles/file_test.dir/Match.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_test.dir/Match.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C\file_test\Match.c -o CMakeFiles\file_test.dir\Match.c.s
+
+CMakeFiles/file_test.dir/Match.c.obj.requires:
+
+.PHONY : CMakeFiles/file_test.dir/Match.c.obj.requires
+
+CMakeFiles/file_test.dir/Match.c.obj.provides: CMakeFiles/file_test.dir/Match.c.obj.requires
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/Match.c.obj.provides.build
+.PHONY : CMakeFiles/file_test.dir/Match.c.obj.provides
+
+CMakeFiles/file_test.dir/Match.c.obj.provides.build: CMakeFiles/file_test.dir/Match.c.obj
+
+
+CMakeFiles/file_test.dir/AdminInterface.c.obj: CMakeFiles/file_test.dir/flags.make
+CMakeFiles/file_test.dir/AdminInterface.c.obj: ../AdminInterface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/file_test.dir/AdminInterface.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file_test.dir\AdminInterface.c.obj   -c D:\C\file_test\AdminInterface.c
+
+CMakeFiles/file_test.dir/AdminInterface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_test.dir/AdminInterface.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C\file_test\AdminInterface.c > CMakeFiles\file_test.dir\AdminInterface.c.i
+
+CMakeFiles/file_test.dir/AdminInterface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_test.dir/AdminInterface.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C\file_test\AdminInterface.c -o CMakeFiles\file_test.dir\AdminInterface.c.s
+
+CMakeFiles/file_test.dir/AdminInterface.c.obj.requires:
+
+.PHONY : CMakeFiles/file_test.dir/AdminInterface.c.obj.requires
+
+CMakeFiles/file_test.dir/AdminInterface.c.obj.provides: CMakeFiles/file_test.dir/AdminInterface.c.obj.requires
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/AdminInterface.c.obj.provides.build
+.PHONY : CMakeFiles/file_test.dir/AdminInterface.c.obj.provides
+
+CMakeFiles/file_test.dir/AdminInterface.c.obj.provides.build: CMakeFiles/file_test.dir/AdminInterface.c.obj
+
+
+CMakeFiles/file_test.dir/KM.c.obj: CMakeFiles/file_test.dir/flags.make
+CMakeFiles/file_test.dir/KM.c.obj: ../KM.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/file_test.dir/KM.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file_test.dir\KM.c.obj   -c D:\C\file_test\KM.c
+
+CMakeFiles/file_test.dir/KM.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_test.dir/KM.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C\file_test\KM.c > CMakeFiles\file_test.dir\KM.c.i
+
+CMakeFiles/file_test.dir/KM.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_test.dir/KM.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C\file_test\KM.c -o CMakeFiles\file_test.dir\KM.c.s
+
+CMakeFiles/file_test.dir/KM.c.obj.requires:
+
+.PHONY : CMakeFiles/file_test.dir/KM.c.obj.requires
+
+CMakeFiles/file_test.dir/KM.c.obj.provides: CMakeFiles/file_test.dir/KM.c.obj.requires
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/KM.c.obj.provides.build
+.PHONY : CMakeFiles/file_test.dir/KM.c.obj.provides
+
+CMakeFiles/file_test.dir/KM.c.obj.provides.build: CMakeFiles/file_test.dir/KM.c.obj
+
+
+CMakeFiles/file_test.dir/test.c.obj: CMakeFiles/file_test.dir/flags.make
+CMakeFiles/file_test.dir/test.c.obj: ../test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/file_test.dir/test.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\file_test.dir\test.c.obj   -c D:\C\file_test\test.c
+
+CMakeFiles/file_test.dir/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/file_test.dir/test.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C\file_test\test.c > CMakeFiles\file_test.dir\test.c.i
+
+CMakeFiles/file_test.dir/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/file_test.dir/test.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C\file_test\test.c -o CMakeFiles\file_test.dir\test.c.s
+
+CMakeFiles/file_test.dir/test.c.obj.requires:
+
+.PHONY : CMakeFiles/file_test.dir/test.c.obj.requires
+
+CMakeFiles/file_test.dir/test.c.obj.provides: CMakeFiles/file_test.dir/test.c.obj.requires
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/test.c.obj.provides.build
+.PHONY : CMakeFiles/file_test.dir/test.c.obj.provides
+
+CMakeFiles/file_test.dir/test.c.obj.provides.build: CMakeFiles/file_test.dir/test.c.obj
+
+
 # Object files for target file_test
 file_test_OBJECTS = \
-"CMakeFiles/file_test.dir/main.c.obj"
+"CMakeFiles/file_test.dir/main.c.obj" \
+"CMakeFiles/file_test.dir/JoinMsg.c.obj" \
+"CMakeFiles/file_test.dir/CollegeInterface.c.obj" \
+"CMakeFiles/file_test.dir/UserInterface.c.obj" \
+"CMakeFiles/file_test.dir/Common.c.obj" \
+"CMakeFiles/file_test.dir/User.c.obj" \
+"CMakeFiles/file_test.dir/College.c.obj" \
+"CMakeFiles/file_test.dir/Match.c.obj" \
+"CMakeFiles/file_test.dir/AdminInterface.c.obj" \
+"CMakeFiles/file_test.dir/KM.c.obj" \
+"CMakeFiles/file_test.dir/test.c.obj"
 
 # External object files for target file_test
 file_test_EXTERNAL_OBJECTS =
 
 file_test.exe: CMakeFiles/file_test.dir/main.c.obj
+file_test.exe: CMakeFiles/file_test.dir/JoinMsg.c.obj
+file_test.exe: CMakeFiles/file_test.dir/CollegeInterface.c.obj
+file_test.exe: CMakeFiles/file_test.dir/UserInterface.c.obj
+file_test.exe: CMakeFiles/file_test.dir/Common.c.obj
+file_test.exe: CMakeFiles/file_test.dir/User.c.obj
+file_test.exe: CMakeFiles/file_test.dir/College.c.obj
+file_test.exe: CMakeFiles/file_test.dir/Match.c.obj
+file_test.exe: CMakeFiles/file_test.dir/AdminInterface.c.obj
+file_test.exe: CMakeFiles/file_test.dir/KM.c.obj
+file_test.exe: CMakeFiles/file_test.dir/test.c.obj
 file_test.exe: CMakeFiles/file_test.dir/build.make
 file_test.exe: CMakeFiles/file_test.dir/linklibs.rsp
 file_test.exe: CMakeFiles/file_test.dir/objects1.rsp
 file_test.exe: CMakeFiles/file_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable file_test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C\file_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable file_test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\file_test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -101,6 +361,16 @@ CMakeFiles/file_test.dir/build: file_test.exe
 .PHONY : CMakeFiles/file_test.dir/build
 
 CMakeFiles/file_test.dir/requires: CMakeFiles/file_test.dir/main.c.obj.requires
+CMakeFiles/file_test.dir/requires: CMakeFiles/file_test.dir/JoinMsg.c.obj.requires
+CMakeFiles/file_test.dir/requires: CMakeFiles/file_test.dir/CollegeInterface.c.obj.requires
+CMakeFiles/file_test.dir/requires: CMakeFiles/file_test.dir/UserInterface.c.obj.requires
+CMakeFiles/file_test.dir/requires: CMakeFiles/file_test.dir/Common.c.obj.requires
+CMakeFiles/file_test.dir/requires: CMakeFiles/file_test.dir/User.c.obj.requires
+CMakeFiles/file_test.dir/requires: CMakeFiles/file_test.dir/College.c.obj.requires
+CMakeFiles/file_test.dir/requires: CMakeFiles/file_test.dir/Match.c.obj.requires
+CMakeFiles/file_test.dir/requires: CMakeFiles/file_test.dir/AdminInterface.c.obj.requires
+CMakeFiles/file_test.dir/requires: CMakeFiles/file_test.dir/KM.c.obj.requires
+CMakeFiles/file_test.dir/requires: CMakeFiles/file_test.dir/test.c.obj.requires
 
 .PHONY : CMakeFiles/file_test.dir/requires
 

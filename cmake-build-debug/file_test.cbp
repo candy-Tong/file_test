@@ -82,16 +82,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/C/file_test/AdminInterface.c">
+			<Option target="file_test"/>
+		</Unit>
+		<Unit filename="D:/C/file_test/College.c">
+			<Option target="file_test"/>
+		</Unit>
+		<Unit filename="D:/C/file_test/CollegeInterface.c">
+			<Option target="file_test"/>
+		</Unit>
+		<Unit filename="D:/C/file_test/Common.c">
+			<Option target="file_test"/>
+		</Unit>
+		<Unit filename="D:/C/file_test/Common.h">
+			<Option target="file_test"/>
+		</Unit>
+		<Unit filename="D:/C/file_test/JoinMsg.c">
+			<Option target="file_test"/>
+		</Unit>
+		<Unit filename="D:/C/file_test/KM.c">
+			<Option target="file_test"/>
+		</Unit>
+		<Unit filename="D:/C/file_test/Match.c">
+			<Option target="file_test"/>
+		</Unit>
+		<Unit filename="D:/C/file_test/User.c">
+			<Option target="file_test"/>
+		</Unit>
+		<Unit filename="D:/C/file_test/UserInterface.c">
+			<Option target="file_test"/>
+		</Unit>
 		<Unit filename="D:/C/file_test/common.h">
 			<Option target="file_test"/>
 		</Unit>
 		<Unit filename="D:/C/file_test/main.c">
 			<Option target="file_test"/>
 		</Unit>
-		<Unit filename="D:/C/file_test/match.h">
-			<Option target="file_test"/>
-		</Unit>
-		<Unit filename="D:/C/file_test/user.h">
+		<Unit filename="D:/C/file_test/test.c">
 			<Option target="file_test"/>
 		</Unit>
 		<Unit filename="D:/C/file_test/CMakeLists.txt">

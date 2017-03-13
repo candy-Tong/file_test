@@ -122,6 +122,249 @@ file_test/fast:
 	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/build
 .PHONY : file_test/fast
 
+AdminInterface.obj: AdminInterface.c.obj
+
+.PHONY : AdminInterface.obj
+
+# target to build an object file
+AdminInterface.c.obj:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/AdminInterface.c.obj
+.PHONY : AdminInterface.c.obj
+
+AdminInterface.i: AdminInterface.c.i
+
+.PHONY : AdminInterface.i
+
+# target to preprocess a source file
+AdminInterface.c.i:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/AdminInterface.c.i
+.PHONY : AdminInterface.c.i
+
+AdminInterface.s: AdminInterface.c.s
+
+.PHONY : AdminInterface.s
+
+# target to generate assembly for a file
+AdminInterface.c.s:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/AdminInterface.c.s
+.PHONY : AdminInterface.c.s
+
+College.obj: College.c.obj
+
+.PHONY : College.obj
+
+# target to build an object file
+College.c.obj:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/College.c.obj
+.PHONY : College.c.obj
+
+College.i: College.c.i
+
+.PHONY : College.i
+
+# target to preprocess a source file
+College.c.i:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/College.c.i
+.PHONY : College.c.i
+
+College.s: College.c.s
+
+.PHONY : College.s
+
+# target to generate assembly for a file
+College.c.s:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/College.c.s
+.PHONY : College.c.s
+
+CollegeInterface.obj: CollegeInterface.c.obj
+
+.PHONY : CollegeInterface.obj
+
+# target to build an object file
+CollegeInterface.c.obj:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/CollegeInterface.c.obj
+.PHONY : CollegeInterface.c.obj
+
+CollegeInterface.i: CollegeInterface.c.i
+
+.PHONY : CollegeInterface.i
+
+# target to preprocess a source file
+CollegeInterface.c.i:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/CollegeInterface.c.i
+.PHONY : CollegeInterface.c.i
+
+CollegeInterface.s: CollegeInterface.c.s
+
+.PHONY : CollegeInterface.s
+
+# target to generate assembly for a file
+CollegeInterface.c.s:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/CollegeInterface.c.s
+.PHONY : CollegeInterface.c.s
+
+Common.obj: Common.c.obj
+
+.PHONY : Common.obj
+
+# target to build an object file
+Common.c.obj:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/Common.c.obj
+.PHONY : Common.c.obj
+
+Common.i: Common.c.i
+
+.PHONY : Common.i
+
+# target to preprocess a source file
+Common.c.i:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/Common.c.i
+.PHONY : Common.c.i
+
+Common.s: Common.c.s
+
+.PHONY : Common.s
+
+# target to generate assembly for a file
+Common.c.s:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/Common.c.s
+.PHONY : Common.c.s
+
+JoinMsg.obj: JoinMsg.c.obj
+
+.PHONY : JoinMsg.obj
+
+# target to build an object file
+JoinMsg.c.obj:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/JoinMsg.c.obj
+.PHONY : JoinMsg.c.obj
+
+JoinMsg.i: JoinMsg.c.i
+
+.PHONY : JoinMsg.i
+
+# target to preprocess a source file
+JoinMsg.c.i:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/JoinMsg.c.i
+.PHONY : JoinMsg.c.i
+
+JoinMsg.s: JoinMsg.c.s
+
+.PHONY : JoinMsg.s
+
+# target to generate assembly for a file
+JoinMsg.c.s:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/JoinMsg.c.s
+.PHONY : JoinMsg.c.s
+
+KM.obj: KM.c.obj
+
+.PHONY : KM.obj
+
+# target to build an object file
+KM.c.obj:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/KM.c.obj
+.PHONY : KM.c.obj
+
+KM.i: KM.c.i
+
+.PHONY : KM.i
+
+# target to preprocess a source file
+KM.c.i:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/KM.c.i
+.PHONY : KM.c.i
+
+KM.s: KM.c.s
+
+.PHONY : KM.s
+
+# target to generate assembly for a file
+KM.c.s:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/KM.c.s
+.PHONY : KM.c.s
+
+Match.obj: Match.c.obj
+
+.PHONY : Match.obj
+
+# target to build an object file
+Match.c.obj:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/Match.c.obj
+.PHONY : Match.c.obj
+
+Match.i: Match.c.i
+
+.PHONY : Match.i
+
+# target to preprocess a source file
+Match.c.i:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/Match.c.i
+.PHONY : Match.c.i
+
+Match.s: Match.c.s
+
+.PHONY : Match.s
+
+# target to generate assembly for a file
+Match.c.s:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/Match.c.s
+.PHONY : Match.c.s
+
+User.obj: User.c.obj
+
+.PHONY : User.obj
+
+# target to build an object file
+User.c.obj:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/User.c.obj
+.PHONY : User.c.obj
+
+User.i: User.c.i
+
+.PHONY : User.i
+
+# target to preprocess a source file
+User.c.i:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/User.c.i
+.PHONY : User.c.i
+
+User.s: User.c.s
+
+.PHONY : User.s
+
+# target to generate assembly for a file
+User.c.s:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/User.c.s
+.PHONY : User.c.s
+
+UserInterface.obj: UserInterface.c.obj
+
+.PHONY : UserInterface.obj
+
+# target to build an object file
+UserInterface.c.obj:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/UserInterface.c.obj
+.PHONY : UserInterface.c.obj
+
+UserInterface.i: UserInterface.c.i
+
+.PHONY : UserInterface.i
+
+# target to preprocess a source file
+UserInterface.c.i:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/UserInterface.c.i
+.PHONY : UserInterface.c.i
+
+UserInterface.s: UserInterface.c.s
+
+.PHONY : UserInterface.s
+
+# target to generate assembly for a file
+UserInterface.c.s:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/UserInterface.c.s
+.PHONY : UserInterface.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -149,6 +392,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/main.c.s
 .PHONY : main.c.s
 
+test.obj: test.c.obj
+
+.PHONY : test.obj
+
+# target to build an object file
+test.c.obj:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/test.c.obj
+.PHONY : test.c.obj
+
+test.i: test.c.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) -f CMakeFiles\file_test.dir\build.make CMakeFiles/file_test.dir/test.c.s
+.PHONY : test.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +428,39 @@ help:
 	@echo ... edit_cache
 	@echo ... file_test
 	@echo ... rebuild_cache
+	@echo ... AdminInterface.obj
+	@echo ... AdminInterface.i
+	@echo ... AdminInterface.s
+	@echo ... College.obj
+	@echo ... College.i
+	@echo ... College.s
+	@echo ... CollegeInterface.obj
+	@echo ... CollegeInterface.i
+	@echo ... CollegeInterface.s
+	@echo ... Common.obj
+	@echo ... Common.i
+	@echo ... Common.s
+	@echo ... JoinMsg.obj
+	@echo ... JoinMsg.i
+	@echo ... JoinMsg.s
+	@echo ... KM.obj
+	@echo ... KM.i
+	@echo ... KM.s
+	@echo ... Match.obj
+	@echo ... Match.i
+	@echo ... Match.s
+	@echo ... User.obj
+	@echo ... User.i
+	@echo ... User.s
+	@echo ... UserInterface.obj
+	@echo ... UserInterface.i
+	@echo ... UserInterface.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

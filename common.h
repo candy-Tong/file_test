@@ -1,55 +1,111 @@
 //
-// Created by candyTong on 2017/2/26.
+// Created by candyTong on 2017/3/2.
 //
 
-#include <time.h>
-#include <mem.h>
-#include <stdio.h>
-#include <malloc.h>
-
 #ifndef FILE_TEST_COMMON_H
-#define FILE_TEST_COMMON_H 
+#define FILE_TEST_COMMON_H
 
-/*=============================================  时间转换  ============================================================*/
+//定义控制台颜色
+#define NONE  "\033[m"
+#define RED           "\033[0;32;31m"
+#define LIGHT_RED     "\033[1;31m"
+#define GREEN         "\033[0;32;32m"
+#define LIGHT_GREEN   "\033[1;32m"
+#define BLUE          "\033[0;32;34m"
+#define LIGHT_BLUE    "\033[1;34m"
+#define DARY_GRAY     "\033[1;30m"
+#define CYAN          "\033[0;36m"
+#define LIGHT_CYAN    "\033[1;36m"
+#define PURPLE        "\033[0;35m"
+#define LIGHT_PURPLE "\033[1;35m"
+#define BROWN         "\033[0;33m"
+#define YELLOW        "\033[1;33m"
+#define LIGHT_GRAY    "\033[0;37m"
+#define WHITE         "\033[1;37m"
 
-/**
- * 将时间戳转为标准时间
- * @param t 时间戳
- * @return  标准时间的字符串
- * 记得把输出完把空间释放
- */
-char* toStandardTime(time_t t){
-    struct tm *lt;
-    int ii = time(&t);
-    t = time(NULL);
-    lt = localtime(&t);
-    char *nowtime=malloc(24);
-    strftime(nowtime, 24, "%Y-%m-%d %H:%M:%S", lt);
-    return nowtime;
-}
-/**
- * 输入一个标准时间  转化成时间戳
- * 格式2017-2-27 2:27 无需输入秒
- * @return
- */
-long toTimeStamp()
-{
-    struct tm stm;
-    int iY, iM, iD, iH, iMin, iS;
-    memset(&stm,0,sizeof(stm));
+#define MAXN  305
+typedef struct {
+    int id;
+    char account[30];
+    char password[30];
+    char name[30];
+    int grade;
+}College;
 
-    scanf("%d-%d-%d %d:%d",&iY,&iM,&iD,&iH,&iMin);
+struct CollegeArray{
+    int id;
+    char account[30];
+    char password[30];
+    char name[30];
+    struct CollegeArray *next;
+    int grade;
+};
+typedef struct CollegeArray CollegeArray;
 
-    stm.tm_year=iY-1900;
-    stm.tm_mon=iM-1;
-    stm.tm_mday=iD;
-    stm.tm_hour=iH;
-    stm.tm_min=iMin;
-    stm.tm_sec=iS;
 
-    /*printf("%d-%0d-%0d %0d:%0d\n", iY, iM, iD, iH, iMin);*/
-    return mktime(&stm);
-}
-/*---------------------------------------------------------------------------------------------------------------------*/
+//用户存储User结构体
+//用户存储User结构体
+typedef struct {
+    int id;
+    char account[30];
+    char password[30];
+    char name[30];
+    int college_id;
+    int sex;
+}User;
+//链表无限扩展的User结构体
+struct userArray{
+    int id;
+    char account[30];
+    char password[30];
+    char name[30];
+    int college_id;
+    int sex;
+    struct userArray *next;
+};
+typedef struct userArray UserArray;
+
+
+
+//40字节
+//用于存储的结构体
+typedef struct{
+    int id;             //比赛id
+    char matchName[30]; //比赛名
+    int matchTime;   //比赛时间
+    int sex;        //性别    0 男 1 女
+    int place;      //比赛地点
+}Match;
+
+//链表无限扩展的match结构体
+struct MatchArray{
+    int id;
+    char matchName[30];
+    int matchTime;
+    int sex;        //性别
+    int place;      //比赛地点
+    struct MatchArray *next;
+};
+typedef struct MatchArray MatchArray;
+
+//用户与赛事存储JoinMsg结构体
+typedef struct {
+    int id;
+    int user_id;
+    int match_id;
+    int grade;
+    int rank;
+}JoinMsg;
+
+//链表无限扩展的JoinMsg结构体
+struct joinMsgArray{
+    int id;
+    int user_id;
+    int match_id;
+    int grade;
+    int rank;
+    struct joinMsgArray *next;
+};
+typedef struct joinMsgArray JoinMsgArray;
 
 #endif //FILE_TEST_COMMON_H
