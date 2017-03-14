@@ -93,7 +93,7 @@ typedef struct {
     int id;
     int user_id;
     int match_id;
-    int grade;
+    double grade;
     int rank;
 }JoinMsg;
 
@@ -102,7 +102,7 @@ struct joinMsgArray{
     int id;
     int user_id;
     int match_id;
-    int grade;
+    double grade;
     int rank;
     struct joinMsgArray *next;
 };
